@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "name": "Sample Image Widget",
+    "version": "0.0.1",
+    "description": "Sample widget",
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "hnt-image@firefox.com",
+            "strict_min_version": "109.0"
+        }
+    },
+    "widget": {
+        "name": "A widget",
+        "type": "image",
+        "image": "./fox.jpg"
+    },
+    "background": {
+        "page": "./background.js"
+    },
+    "permissions": [
+        "storage"
+    ]
+}

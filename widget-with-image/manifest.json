@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "Sample Widget with Image",
+    "version": "0.0.1",
+    "description": "Sample widget with image",
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "hnt-widget-with-image@firefox.com",
+            "strict_min_version": "109.0"
+        }
+    },
+    "widget": {
+        "name": "A simple counter",
+        "type": "widget_with_image",
+        "title": "0",
+        "caption": "Tap to increase the counter",
+        "image": "./icon.png"
+    },
+    "background": {
+        "page": "./background.js"
+    }
+}
