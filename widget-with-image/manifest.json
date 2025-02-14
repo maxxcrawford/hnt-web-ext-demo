@@ -9,14 +9,13 @@
             "strict_min_version": "109.0"
         }
     },
+    "permissions": ["storage"],
     "widget": {
-        "name": "A simple counter",
-        "type": "widget_with_image",
         "title": "0",
         "caption": "Tap to increase the counter",
-        "image": "./icon.png"
+        "image_url": "./icon.png"
     },
     "background": {
-        "page": "./background.js"
+        "scripts": ["./background.js"]
     }
 }

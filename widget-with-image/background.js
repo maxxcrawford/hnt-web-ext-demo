@@ -8,8 +8,6 @@
     counter++;
 
     await browser.storage.session.set({ counter });
-    await browser.widget.update(widgetName, { title: `${counter}` });
+    await browser.widget.update({ title: `${counter}` });
   });
-
-	
 })();
